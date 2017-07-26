@@ -41,3 +41,4 @@ else  :</br>
 
 # 編輯記錄
 1. 把爬蟲重複部分定義成 htmlsoup()的function
+update 20170727
