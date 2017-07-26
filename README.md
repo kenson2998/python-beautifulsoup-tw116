@@ -22,6 +22,7 @@ FROM tw116 </br>
 WHERE 網址= '/url/'</br>
 )  </br>
 *.如果資料庫沒有相同網址，新增一筆電影資料
+</br>
 if SELECT.網址 == None :</br>
    INSERT 該部電影資料</br>
 </br>
