@@ -1,4 +1,4 @@
-# python-beautifulsoup-tw116/TW116.py ttttttttttesssssttttt
+# python-beautifulsoup-tw116/TW116.py 
 
 # 使用工具:
 1. python
@@ -9,7 +9,7 @@
 
 2017/7/26 updated
 # 說明:
-1.使用 python beautifulsoup 4 練習爬蟲電影網站tw116.com</br>
+1.使用 python beautifulsoup  4 web crawler 練習爬蟲電影網站tw116.com</br>
 2.動作類電影第1頁爬取10部電影資料:</br>
   ---網址　　: /url/</br>
   ---狀態　　: 未完結、完結、連載至X集</br>
