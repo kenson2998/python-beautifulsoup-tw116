@@ -36,9 +36,21 @@ else  :</br>
 </br>
 
 # 以下為未完成項目
-*.*.判斷10個網址是否為新資料</br>
-*.發送至telegram</br>
+*.*圖片網址需要header，否則urllib2.urlretrieve抓下來會顯示 HTTP Error 403: Forbidden 錯誤。
 
 # 編輯記錄
-1. 把爬蟲重複部分定義成 htmlsoup()的function
-update 20170727
+update 20170727</br>
+1. 把爬蟲重複部分定義成 htmlsoup()的function</br>
+</br>
+update 20170808</br>
+1. 上傳了 tw116mv_1.py、langconv.py、zh_wiki.py 三個檔案。</br>
+2. 新增功能 :</br>
+    (1)簡體轉為繁體內容 def simple2tradition(line) 內容有稍微修改，網路上的內容有誤，需要先轉Str.encode,再decode成('utf-8')</br>
+    (2)發送telegram新增或是更新的電影內容</br>
+    (3)判斷第一層頁面10個網址是否有更新連載狀態</br>
+    (4)模組爬蟲定義為 def tw116_movie(tittme,typename)</br>
+    (5)外層抓取資料為:上傳日期、連載狀態、電影網址、電影縮圖</br>
+    (6)models.tw116.objects.filter(url__contains=網址) </br>
+       相當於 select * from tw116 where url like %網址% </br>
+
+
